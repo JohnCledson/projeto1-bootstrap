@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="/lib/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(0, 0, 54);">
+  <div class="container-fluid bg-danger p-2">
+    <h1>Tecnologia</h1>
+  </div>
+  <div class="container p-3">
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="corousel">
+      <div class="carousel-inner">
+        <div data-bs-interval="3000" class="carousel-item active">
+          <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/sistema-html-para-design-de-colagem-de-sites_23-2150432963.jpg?t=st=1709314371~exp=1709317971~hmac=4a51543a61d70fdeda4bea2b10d17a77fca70c680fa254e322c28526ab9b26c2&w=740">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/sistema-html-para-design-de-colagem-de-sites_23-2150432949.jpg?t=st=1709314416~exp=1709318016~hmac=5c88bf633abc9364f49b61f08be1e12e0ad3fc0bfbc1b644a946d83d7a8d9130&w=740">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/sistema-html-para-design-de-colagem-de-sites_23-2150432941.jpg?t=st=1709314461~exp=1709318061~hmac=f51e0fa96e4c31d72474c3b5dfb0d1f0497a15ebf4205c3e0efa63455e06c362&w=740">
+        </div>
+      </div>
+      <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 mt-3">
+        <article class="card text-bg-dark h-100">
+          <header class="card-header">
+            Linguagens para Programação Web
+          </header>
+          <img src="http://portalwebdesigner.com/wp-content/uploads/2016/05/web-designer-aprender.jpg">
+          <div class="card-body">
+            <p class="card-text">
+              As linguagens de programação web são utilizadas especificamente para o desenvolvimentos das camadas de apresentação e de lógica de negócio de web sites, portais e aplicações web em geral. <br>
+              Para a camada de apresentação, é essencial que o WebDesigner conheça principalmente HTML, CSS e  ao menos o básico de JavaScript. Para as linguagens de programação de lógica, as opções disponíveis no mercado são muitas e com isso fica muito difícil dominar todas as linguagens, por isso é importante, pelo menos a principio, focar em alguma delas como PHP, ASP ou .NET, apesar de existir várias outras.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mt-3">
+        <article class="card text-bg-dark h-100">
+          <header class="card-header">
+            Como funcionam as Aplicações Desktop
+          </header>
+          <img src="https://wktechnology.com.br/wp-content/uploads/2022/02/aplicacoes-desktop.png">
+          <div class="card-body">
+            <p class="card-text">
+              Uma aplicação desktop é um programa de computador que roda em seu PC e não em um navegador da web. A linguagem de programação orientada a objetos C++ é utilizada pela maioria das aplicações desktop. Os desenvolvedores podem, entretanto, criar aplicações de desktop baseadas em HTML usando programas de computador são conjuntos de instruções que dizem ao computador o que fazer.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mt-3">
+        <div class="card text-bg-dark h-100">
+          <div class="card-header">
+            O que é programação mobile?
+          </div>
+          <img src="https://blog.geekhunter.com.br/wp-content/uploads/2020/10/programacao-mobile.jpg.webp">
+          <div class="card-body">
+            <p class="card-text">
+              Programação mobile não se trata apenas de construir aplicativos para plataformas mobile, embora isso certamente seja uma grande parte dele. <br>
+              Em suma, o desenvolvimento móvel engloba o desenvolvimento de aplicativos para smartphones, tablets, smartwatches e todos os outros tipos de dispositivos wearables que executam algum tipo de sistema operacional móvel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
